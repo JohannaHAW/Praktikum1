@@ -1,0 +1,13 @@
+<name>Raspberry Pi-Model b</name>
+<ip>192.168.2.1</ip>
+<sensoren wert="22.4">
+	<ort>Wohnzimmer</ort>
+	<typ>Temperatur</typ>
+</sensoren>
+<sensoren wert="-1.2323">
+	<ort>Küche</ort>
+</sensoren>
+<sensoren wert="63.8">
+	<ort>Badezimmer</ort>
+	<typ>Luftfeuchtigkeit</typ>
+</sensoren>	
