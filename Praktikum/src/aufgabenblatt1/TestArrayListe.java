@@ -17,6 +17,7 @@ public class TestArrayListe {
 		ArrayListe<Integer> list1 = new ArrayListe<Integer>(2);
 		list1.hinzufuegen(1);
 		list1.hinzufuegen(2);
+		list1.hashCode();
 		return list1;
 	}
 
