@@ -23,6 +23,7 @@ public class TestStudent {
 	@Test
 	public void testCompareTo() {
 		
+		
 		Student student1 = new Student("Lilli", "Cao", 224555);
 		Student student2 = new Student("Robert", "Mueller", 224556);
 		Student student3 = new Student("Robert", "Klein", 224555);
