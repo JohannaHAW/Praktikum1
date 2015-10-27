@@ -1,4 +1,6 @@
-# PM2_PR1
+# PM2_PR
 
-Praktikum: Aufgabenblatt2: Umgang mit Lamdas, Stream und Thread
+Praktikum: 
+Aufgabenblatt1: Umgang mit Git und Generischem Typ
+Aufgabenblatt2: Umgang mit Lamdas, Stream und Thread
 
