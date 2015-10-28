@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT gerät(sensoren)*>
-<!ATTLIST gerät name CDATA #REQUIRED ip CDATA #REQUIRED>
-<!ELEMENT sensoren (ort +, typ?)>
-<!ATTLIST sensoren wert CDATA #REQUIRED>
-<!ELEMENT ort(#PCDATA)>
-<!ELEMENT typ(#PCDATA)>
