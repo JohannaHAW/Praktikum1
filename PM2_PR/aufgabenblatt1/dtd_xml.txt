@@ -1,0 +1,6 @@
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT ip(#PCDATA)>
+<!ELEMENT sensoren (ort +, typ?)>
+<!ATTLIST sensoren wert CDATA #REQUIRED>
+<!ELEMENT ort(#PCDATA)>
+<!ELEMENT typ(#PCDATA)>
