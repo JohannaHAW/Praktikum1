@@ -1,5 +1,11 @@
 package aufgabenblatt2;
-
+/**
+ * Praktikum 2, Aufgabe 1
+ * @author Thi Huyen, Cao(Lilli) email: ThiHuyen.Cao@haw-hamburg.de
+ *         Johanna Ahlf          email: johanna.ahlf@haw-hamburg.de
+ * Technische Informatik, HAW
+ * Prof. Philipp Jenke
+ */
 import static org.junit.Assert.*;
 
 import org.junit.Test;

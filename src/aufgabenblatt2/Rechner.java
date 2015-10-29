@@ -1,11 +1,19 @@
 package aufgabenblatt2;
 
+/**
+ * Praktikum 2, Aufgabe 1 : Diese Class verwaltet 4 Operationen in 
+ * einem Map(Schlüssel vom Typ enum und Wert von Typ BinaryOperaotr)
+ * @author Thi Huyen, Cao(Lilli) email: ThiHuyen.Cao@haw-hamburg.de
+ *         Johanna Ahlf          email: johanna.ahlf@haw-hamburg.de
+ * Technische Informatik, HAW
+ * Prof. Philipp Jenke
+ */
 import java.util.*;
 import java.util.function.BinaryOperator;
 
 public class Rechner {
 	/**
-	 * 
+	 * Typ enum Operation enthält 4 Konstant für 4 Operationen
 	 * 
 	 *
 	 */
@@ -13,6 +21,10 @@ public class Rechner {
 		ADDITION, SUBTRACTION, MULTIPLICATION, DEVISION
 	}
 
+	/**
+	 * Die Variable Map mit dem Schlüssel vom Typ enum und dem Wert von Typ
+	 * BinaryOperator
+	 */
 	private Map<Operation, BinaryOperator<Double>> map = new HashMap<Operation, BinaryOperator<Double>>();
 
 	/**
