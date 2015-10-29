@@ -32,7 +32,7 @@ public class stream_pro {
 		
 		// }
 		List<String> listString = new ArrayList<String>();
-	Stream<String[]> stream = Arrays.stream(array);
+
 		return listString;
 
 	}

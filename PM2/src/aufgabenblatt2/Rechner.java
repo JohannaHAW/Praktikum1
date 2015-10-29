@@ -26,7 +26,7 @@ public class Rechner {
 	 * von Typ BinaryOperator
 	 *
 	 */
-	public static Map<Operation, BinaryOperator<Double>> mapIni() {
+	public Map<Operation, BinaryOperator<Double>> mapIni() {
 		Map<Operation, BinaryOperator<Double>> map = new HashMap<Operation, BinaryOperator<Double>>();
 		map.put(Operation.ADDITION, (wert1, wert2) -> {
 			return wert1 + wert2;
